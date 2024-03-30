@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    max-width: 60%; /* Establece un ancho máximo para evitar que el contenedor se vuelva demasiado ancho */
+    border-radius: 20px; /* Agrega bordes redondeados al contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega sombra para resaltar el contenedor */
+    width: 600px; /* Ancho fijo para pantallas grandes */
+    padding: 20px 20px; /* Ajusta según sea necesario */
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: blueviolet;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: blueviolet;
+    border-radius: 10px;
+}
+
+.inputs {
+
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    align-self: center; /* Alinea verticalmente los campos de texto */
+    width: 100%;
+    max-width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 8px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.input img {
+    margin-right: 20px; /* Espacio entre el ícono y el campo de entrada */
+}
+
+.input input {
+    flex: 1; /* El campo de entrada se expandirá para llenar el espacio disponible */
+    height: 100%; /* Altura del campo de entrada al 100% del contenedor padre */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    }
+
+.olvido-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+
+}
+
+.olvido-password span {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background-color: blueviolet;
+    border-color: none;
+    border-radius: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Agregar una transición suave al color de fondo */
+}
+
+.submit:hover {
+    color: #fff;
+    background-color: blueviolet; /* Cambiar el color de fondo al pasar el mouse */
+}
+
+.gray {
+    background: #eaeaea;
+    color: #676767;
+}
+
+.back-to-login {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.button {
+    display: inline-flex;
+    align-items: start;
+    justify-content: center;
+    padding: 10px 20px; /* Ajusta según sea necesario */
+    border-color: none;
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: blueviolet; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    font-weight: bold;
+}
+
+.arrow-icon {
+    width: 20px; /* Ajusta según sea necesario */
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+}
